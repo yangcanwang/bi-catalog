@@ -2,15 +2,15 @@
 
 # CMA CGM US — Active BI Catalog Discovery Tool
 
-A smart, AI-powered report discovery tool built for CMA CGM US business teams. Instead of searching by keyword, users describe what they need in plain language and the tool matches them to the right report — or routes them into a new report request if nothing exists.
+A smart, AI-powered report discovery tool I built for CMA CGM US business teams. Instead of searching by keyword, users describe what they need in plain language and the tool matches them to the right report — or routes them into a new report request if nothing exists.
 
 ---
 
-## Why we built this
+## Why I built this
 
-The BI NORTAM team maintains a catalog of reports and dashboards built for the business. When teams have a reporting need, they should be able to search the catalog first to see if something already exists — avoiding duplicate requests and saving everyone time.
+I maintain a catalog of reports and dashboards built for the business as part of the BI NORTAM team. When teams have a reporting need, they should be able to search the catalog first to see if something already exists — avoiding duplicate requests and saving everyone time.
 
-The current search tool has two core limitations:
+The current search tool has two core limitations I wanted to solve:
 
 - **Search is text-based and not effective enough.** Users select a department, type keywords, and hope they match a report title exactly. But a report title can only hold so many words, and users often don't know the right terminology. Someone searching "why did East Coast volume drop" will never find a report titled "Trade Lane Performance by Origin Port" — even if it answers their question perfectly.
 - **Search and request submission are two completely separate processes.** Most users forget to search first. Those who do search, find nothing, and then want to submit a request have to start over in a different tool entirely — with no connection between what they already described and the form they now need to fill out.
@@ -19,10 +19,10 @@ The current search tool has two core limitations:
 
 ## What this tool does
 
-Replaces keyword search with an AI-driven discovery experience that understands what a user is looking for — not just whether their words match a title.
+It replaces keyword search with an AI-driven discovery experience that understands what a user is looking for — not just whether their words match a title.
 
 **1. Understands intent, not just words**
-The AI is fed three layers of information per report:
+I feed the AI three layers of information per report:
 - The SQL query — so it learns the actual data scope, department codes, booking prefixes, filters, and limitations of each report
 - The report description and business use cases — so it understands what the report truly covers and can match it to a user's need even when the wording is completely different
 - Basic metadata — report title, department, owner, refresh frequency, and report link
@@ -60,13 +60,13 @@ Ranked results shortlist returned
 
 ## What feeds the AI
 
-To generate meaningful, searchable content for each report, we collect the following from report stakeholders:
+To generate meaningful, searchable content for each report, I collect the following from report stakeholders:
 
 - **Report description** — what the report tracks and covers
 - **Who uses it and how often** — role and frequency
 - **A specific use case** — a real situation where someone relied on this report
 
-In parallel, the DEV team provides the underlying SQL query for each report. Together these inputs allow the AI to match user intent to the right report — not just keywords to titles.
+In parallel, I work with the DEV team to collect the underlying SQL query for each report. Together these inputs allow the AI to match user intent to the right report — not just keywords to titles.
 
 ---
 
@@ -93,4 +93,4 @@ bi-catalog/
 
 ## Contact
 
-Built and maintained by the Lorraine Wang.
+Built and maintained by [your name] — BI NORTAM team. Feel free to reach out at [your email] with any questions or feedback.
