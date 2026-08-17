@@ -93,4 +93,4 @@ bi-catalog/
 
 ## Contact
 
-Built and maintained by [your name] — BI NORTAM team. Feel free to reach out at [your email] with any questions or feedback.
+Built and maintained by Lorraine Wang — BI NORTAM team.
